@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My Course</title>
 
+
         <!--Jquery CDN Start-->
         <link rel="stylesheet" href="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.css">
         <script src="https://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -16,6 +17,7 @@
 
         <!-- Local CSS Start-->
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="stylex.css">
 
         <!-- Local CSS End-->
 
@@ -26,10 +28,27 @@
             crossorigin="anonymous" referrerpolicy="no-referrer" />
         <!-- Font awesome cdn end-->
 
-        <!-- Custom font start-->
+        <!--Local Js Start-->
+        <script src="app.js"></script>
 
 
-        <!-- Custom font end-->
+        <!-- Local JS End-->
+
+
+        <!-- MAP API start-->
+        <script type="text/javascript"
+            src="https://api.map.baidu.com/api?v=2.0&ak=Svio9bXC42PyP9HSv7nyychPOzxD3OsD"></script>
+
+        <!-- MAP API end-->
+
+
+        <!-- Video api start-->
+        <link href="https://vjs.zencdn.net/7.17.0/video-js.css" rel="stylesheet" />
+        <script src="https://vjs.zencdn.net/7.17.0/video.min.js"></script>
+
+        <!-- Video API end-->
+
+
 
 
     </head>
@@ -127,13 +146,105 @@
         <!--Page one end-->
 
         <!--Page two start-->
-        <section id="page-2" data-role="page">
+        <section id="page-2" data-role="page" class="page2">
             <div class="ui-content">
                 <!--Page 2 main content start-->
-                <div>
-                    <p>Hellosefefewfewewffewfefewfes</p>
+
+                <div class="card">
+                    <img src="https://source.unsplash.com/900x600/?nature,water,1">
+                    <h4>share a volume between cloud servers</h4>
+                    <div class="content-wrapper">
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolor veritatis neque
+                                cumque. Voluptatibus debitis quia unde corrupti laudantium fuga pariatur tenetur dolorum
+                                aspernatur laborum iste animi, consequatur porro sequi?</p>
+                            <p>Suscipit, culpa molestiae alias doloribus praesentium omnis tempore impedit deserunt
+                                consequatur tempora. Ad id eum non officia corrupti dolores earum architecto corporis
+                                commodi delectus excepturi, laudantium qui, harum aut libero!</p>
+                            <p>Veritatis nemo deleniti, deserunt iure odit ratione molestiae labore non ipsum obcaecati
+                                aperiam officiis repudiandae similique architecto quas nostrum quidem enim fugiat optio
+                                alias incidunt ipsam dicta. Minus, perspiciatis reiciendis!</p>
+                            <p>Consequuntur facilis cupiditate tempore eius esse! Aut quo iste praesentium recusandae
+                                commodi placeat est omnis soluta fuga dolore veniam provident culpa, deleniti ullam hic
+                                dignissimos fugiat illo nemo veritatis ex.</p>
+                            <p>Ratione eos illo incidunt illum inventore consequatur eligendi, aliquam ducimus
+                                voluptatem? Voluptate dignissimos quasi vel eum tempore, aperiam nemo, aliquam ratione
+                                amet aspernatur nam! Fugit quaerat nemo aspernatur. Quia, quis.</p>
+                        </div>
+                    </div>
                 </div>
 
+                <div class="card">
+                    <img src="https://source.unsplash.com/900x600/?nature,water,2">
+                    <h4>7 Killer JavaScript One-Liners that you must know</h4>
+                    <div class="content-wrapper">
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolor veritatis neque
+                                cumque. Voluptatibus debitis quia unde corrupti laudantium fuga pariatur tenetur dolorum
+                                aspernatur laborum iste animi, consequatur porro sequi?</p>
+                            <p>Suscipit, culpa molestiae alias doloribus praesentium omnis tempore impedit deserunt
+                                consequatur tempora. Ad id eum non officia corrupti dolores earum architecto corporis
+                                commodi delectus excepturi, laudantium qui, harum aut libero!</p>
+                            <p>Veritatis nemo deleniti, deserunt iure odit ratione molestiae labore non ipsum obcaecati
+                                aperiam officiis repudiandae similique architecto quas nostrum quidem enim fugiat optio
+                                alias incidunt ipsam dicta. Minus, perspiciatis reiciendis!</p>
+                            <p>Consequuntur facilis cupiditate tempore eius esse! Aut quo iste praesentium recusandae
+                                commodi placeat est omnis soluta fuga dolore veniam provident culpa, deleniti ullam hic
+                                dignissimos fugiat illo nemo veritatis ex.</p>
+                            <p>Ratione eos illo incidunt illum inventore consequatur eligendi, aliquam ducimus
+                                voluptatem? Voluptate dignissimos quasi vel eum tempore, aperiam nemo, aliquam ratione
+                                amet aspernatur nam! Fugit quaerat nemo aspernatur. Quia, quis.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://source.unsplash.com/900x600/?nature,water,3">
+                    <h4>Best practices for using AWS StepFunctions</h4>
+                    <div class="content-wrapper">
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolor veritatis neque
+                                cumque. Voluptatibus debitis quia unde corrupti laudantium fuga pariatur tenetur dolorum
+                                aspernatur laborum iste animi, consequatur porro sequi?</p>
+                            <p>Suscipit, culpa molestiae alias doloribus praesentium omnis tempore impedit deserunt
+                                consequatur tempora. Ad id eum non officia corrupti dolores earum architecto corporis
+                                commodi delectus excepturi, laudantium qui, harum aut libero!</p>
+                            <p>Veritatis nemo deleniti, deserunt iure odit ratione molestiae labore non ipsum obcaecati
+                                aperiam officiis repudiandae similique architecto quas nostrum quidem enim fugiat optio
+                                alias incidunt ipsam dicta. Minus, perspiciatis reiciendis!</p>
+                            <p>Consequuntur facilis cupiditate tempore eius esse! Aut quo iste praesentium recusandae
+                                commodi placeat est omnis soluta fuga dolore veniam provident culpa, deleniti ullam hic
+                                dignissimos fugiat illo nemo veritatis ex.</p>
+                            <p>Ratione eos illo incidunt illum inventore consequatur eligendi, aliquam ducimus
+                                voluptatem? Voluptate dignissimos quasi vel eum tempore, aperiam nemo, aliquam ratione
+                                amet aspernatur nam! Fugit quaerat nemo aspernatur. Quia, quis.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://source.unsplash.com/900x600/?nature,water,4">
+                    <h4>The Power of HTML,CSS and JavaScript</h4>
+                    <div class="content-wrapper">
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolor veritatis neque
+                                cumque. Voluptatibus debitis quia unde corrupti laudantium fuga pariatur tenetur dolorum
+                                aspernatur laborum iste animi, consequatur porro sequi?</p>
+                            <p>Suscipit, culpa molestiae alias doloribus praesentium omnis tempore impedit deserunt
+                                consequatur tempora. Ad id eum non officia corrupti dolores earum architecto corporis
+                                commodi delectus excepturi, laudantium qui, harum aut libero!</p>
+                            <p>Veritatis nemo deleniti, deserunt iure odit ratione molestiae labore non ipsum obcaecati
+                                aperiam officiis repudiandae similique architecto quas nostrum quidem enim fugiat optio
+                                alias incidunt ipsam dicta. Minus, perspiciatis reiciendis!</p>
+                            <p>Consequuntur facilis cupiditate tempore eius esse! Aut quo iste praesentium recusandae
+                                commodi placeat est omnis soluta fuga dolore veniam provident culpa, deleniti ullam hic
+                                dignissimos fugiat illo nemo veritatis ex.</p>
+                            <p>Ratione eos illo incidunt illum inventore consequatur eligendi, aliquam ducimus
+                                voluptatem? Voluptate dignissimos quasi vel eum tempore, aperiam nemo, aliquam ratione
+                                amet aspernatur nam! Fugit quaerat nemo aspernatur. Quia, quis.</p>
+                        </div>
+                    </div>
+                </div>
                 <!--Page 2 main content end-->
             </div>
         </section>
@@ -146,12 +257,58 @@
         <!--Page three start-->
         <section id="page-3" data-role="page">
             <div class="ui-content">
-                <!--Page 2 main content start-->
-                <div>
-                    <p>Helldsdsdoss</p>
-                </div>
+                <!--Page 3 main content start-->
 
-                <!--Page 2 main content end-->
+                <video id="my-video" class="video-js" controls preload="auto" width="auto" height="264"
+                poster="https://www.et.ynu.edu.cn/appdd/uploads/20183290242/8/webdev.png" data-setup="{}">
+                <source src="https://www.et.ynu.edu.cn/appdd/uploads/20183290242/8/video.mp4" type="video/mp4" />
+                <source src="https://www.et.ynu.edu.cn/appdd/uploads/20183290242/8/video.mp4" type="video/mp4" />
+                <p class="vjs-no-js">
+                    To view this video please enable JavaScript, and consider upgrading to a
+                    web browser that
+                    <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                </p>
+            </video>
+
+            <div class="course-text">
+                <h3> The complete web development course</h3>
+                <br>
+                <p> Become a full stack developer with just one course.</p>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>NodeJs</li>
+
+                <span> Price: Free</span>
+            </div>
+
+            <div class="courseInd">
+                <h1>What you will learn</h1>
+                <ul>
+                    <li> Be able to do any website</li>
+                    <li>Work with company</li>
+                    <li>Work as a freelance web developer</li>
+                </ul>
+                
+
+            </div>
+
+            
+                <h2> Course Curriculum</h2>
+                
+            <div class="ui-grid course-c">
+                <div class="ui-block" > <a href="#"> 1. What you will get in the course.</a></div>
+                <div class="ui-block"> <a href="#page-3"> 2. Learn HTML and CSS</a></div>
+                <div class="ui-block"> <a href="#page-3"> 3. Learn JavaScript</a></div>
+               
+                <div class="ui-block"> <a href="#page-3"> 4. Learn NodeJS</a></div>
+                <div class="ui-block"> <a href="#page-3"> 5. Conclusion</a></div>
+            </div>
+            
+        </div>
+
+               
+                <!--Page 3 main content end-->
             </div>
         </section>
 
@@ -161,19 +318,54 @@
         <!--Page four start-->
         <section id="page-4" data-role="page">
             <div class="ui-content">
-                <!--Page 2 main content start-->
-                <div>
-                    <p>Hellosdsss</p>
-                </div>
+                <!--Page 4 main content start-->
+                <div class="cards-list">
+  
+                    <div class="card 1">
+                      <div class="card_image"> <img src="https://i.redd.it/b3esnz5ra34y.jpg" /> </div>
+                      <div class="card_title title-white">
+                        <p>Card Title</p>
+                      </div>
+                    </div>
+                    
+                      <div class="card 2">
+                      <div class="card_image">
+                        <img src="https://cdn.blackmilkclothing.com/media/wysiwyg/Wallpapers/PhoneWallpapers_FloralCoral.jpg" />
+                        </div>
+                      <div class="card_title title-white">
+                        <p>Card Title</p>
+                      </div>
+                    </div>
+                    
+                    <div class="card 3">
+                      <div class="card_image">
+                        <img src="https://media.giphy.com/media/10SvWCbt1ytWCc/giphy.gif" />
+                      </div>
+                      <div class="card_title">
+                        <p>Card Title</p>
+                      </div>
+                    </div>
+                      
+                      <div class="card 4">
+                      <div class="card_image">
+                        <img src="https://media.giphy.com/media/LwIyvaNcnzsD6/giphy.gif" />
+                        </div>
+                      <div class="card_title title-black">
+                        <p>Card Title</p>
+                      </div>
+                      </div>
+                    
+                    </div>
 
-                <!--Page 2 main content end-->
+
+                <!--Page 4 main content end-->
             </div>
         </section>
 
 
         <!--Page four end-->
 
-       
+
 
 
 
@@ -191,23 +383,57 @@
         <section id="page-5" data-role="page">
             <div class="ui-content">
                 <!--Page 5 main content start-->
-                <form action="https://formsubmit.co/mdaliahad@outlook.com" method="POST" enctype="multipart/form-data">
+                <p class="text-head text-contact-border">
+                    Contact Me!
+                </p>
+                <p style="text-align: center; color: rgb(122, 122, 122);">Feel free to contact me..</p>
+
+
+                <!--Contact from start with API-->
+                <form class="contact-from" action="https://formsubmit.co/mdaliahad@outlook.com" method="POST"
+                    enctype="multipart/form-data">
+                    <label for="basic">Your Name:</label>
                     <input type="text" name="name" placeholder="Your Name" required>
+                    <label for="basic">Your Email Address:</label>
                     <input type="email" name="email" placeholder="Email Address" required>
+                    <label for="basic"> Write your message:</label>
                     <textarea name="message" placeholder="Write Your message"></textarea>
+
+                    <label for="basic">Upload File (Image only):</label>
                     <input type="file" name="attachment" accept="image/png, image/jpeg">
-                    <input type="hidden" name="_next" value="https://ahadali.me/portfolio-website-with-JqueryMobile/thankyou.html">
+                    <input type="hidden" name="_next"
+                        value="https://ahadali.me/portfolio-website-with-JqueryMobile/thankyou.html">
                     <input type="hidden" name="_captcha" value="false">
                     <button type="submit">Send</button>
-               </form>
+                </form>
 
-                <!--Page 5 main content end-->
+
+
+                <!--MAP start-->
+                <div class="contact-me">
+                    <div id="myMap1"></div>
+
+                    <p style="padding: 1rem; text-align: justify; border: 1px solid wheat;">
+                        Name: Md Ahad Ali <br>
+                        ID: 20183290242 <br>
+                        Major: Computer Science and Technology <br>
+                        Email: mdaliahad@outlook.com <br>
+                        Website: ahadali.me
+                    </p>
+
+                </div>
+            </div>
+            <!--MAP End-->
+
+            <!--Contact from End-->
+
+            <!--Page 5 main content end-->
             </div>
         </section>
 
         <!--Page five end-->
 
-       
+
 
 
 
@@ -234,10 +460,10 @@
         <div data-role="footer" data-position="fixed" data-tap-toggle="false">
 
             <menu class="open">
-                <a href="#" class="action"><i class="fab fa-dribbble"></i></a>
-                <a href="#" class="action"><i class="fab fa-instagram"></i></a>
-                <a href="#" class="action"><i class="fab fa-twitter"></i></a>
-                <a href="#" class="action"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://dribbble.com/iamaliahad" class="action"><i class="fab fa-dribbble"></i></a>
+                <a href="https://www.instagram.com/iamaliahad/" class="action"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/iamAliAhad" class="action"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/iamaliahad/" class="action"><i class="fab fa-facebook-f"></i></a>
                 <a href="#" class="trigger"><i class="fas fa-plus"></i></a>
             </menu>
 
@@ -263,14 +489,14 @@
                                 class="fa fa-home icon-x"></i></a>
 
                     </li>
-                    <li><a href="#page-2" data-transition="fade" class="ui-btn"> <i class="fa fa-user icon-x"></i>
+                    <li><a href="#page-2" data-transition="fade" class="ui-btn"> <i class="fa fa-blog icon-x"></i>
                         </a></li>
-                    <li><a href="#page-3" data-transition="fade" class="ui-btn ui-icon-grid ui-btn-icon-top">
-                        </a>
-                    </li>
-                    <li><a href="#page-4" data-transition="fade" class="ui-btn ui-icon-comment ui-btn-icon-top"></a>
-                    </li>
-                    <li><a href="#page-5" data-transition="fade" class="ui-btn ui-icon-user ui-btn-icon-top"></a>
+                        <li><a href="#page-3" data-transition="fade" class="ui-btn"> <i class="fa fa-video icon-x"></i>
+                        </a></li>
+                        <li><a href="#page-4" data-transition="fade" class="ui-btn"> <i class="fa fa-archive icon-x"></i>
+                        </a></li>
+                    <li><a href="#page-5" data-transition="fade" class="ui-btn "> <i
+                                class="fa fa-id-card icon-x"></i></a>
                     </li>
                 </ul>
             </div>
@@ -283,10 +509,7 @@
 
 
 
-        <!--Local Js Start-->
-        <script src="app.js"></script>
 
-        <!-- Local JS End-->
 
     </body>
 
