@@ -18,7 +18,7 @@
   }
   
   .card .card_image {
-    width: inherit;
+    width: 50%;
     height: inherit;
     border-radius: 40px;
   }
@@ -33,12 +33,25 @@
   .card .card_title {
     text-align: center;
     border-radius: 0px 0px 40px 40px;
-    font-family: sans-serif;
+    
     font-weight: bold;
     font-size: 30px;
     margin-top: -80px;
     height: 40px;
+    margin-left: 70px;
   }
+
+  .card .card_text {
+    text-align: center;
+    border-radius: 0px 0px 40px 40px;
+    margin-left: 80px;
+    
+    
+    font-size: 90px;
+    margin-top: -200px;
+    height: 40px;
+  }
+  
   
   .card:hover {
     transform: scale(0.9, 0.9);
@@ -46,14 +59,11 @@
       -5px -5px 30px 15px rgba(0,0,0,0.22);
   }
   
-  .title-white {
-    color: white;
+  .title-c {
+    color: rgb(0, 0, 0);
   }
   
-  .title-black {
-    color: black;
-  }
-  
+
 
   
   
